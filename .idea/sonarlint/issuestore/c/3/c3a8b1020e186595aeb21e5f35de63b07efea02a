@@ -1,0 +1,6 @@
+
+k	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎºÑ¦ýÿÿÿÿ
+9
+java:S1148/"#Use a logger to log this exception.(ÝÜí…
+;
+java:S1181/"%Catch Exception instead of Throwable.(ÝÜí…

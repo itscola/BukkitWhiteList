@@ -1,0 +1,20 @@
+
+2
+java:S1643"Use a StringBuilder instead.(όÿ‡…
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ο©µξ
+E
+java:S5411#"*Use the primitive boolean expression here.(λΉ‚γώÿÿÿÿ
+€
+java:S1149."eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¥Λ©τωÿÿÿÿ
+U
+java:S1118	":Add a private constructor to hide the implicit public one.(ϋ‡Ήάώÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(”Τ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(όΐΞ
+4
+java:S2178 "Correct this "&" to "&&".(ι‰ώÿÿÿÿ
+C
+java:S1125 "(Remove the literal "true" boolean value.(ι‰ώÿÿÿÿ
+P
+java:S2209 "5Change this instance-reference to a static reference.(ι‰ώÿÿÿÿ
+C
+java:S1125#"(Remove the literal "true" boolean value.(λΉ‚γώÿÿÿÿ

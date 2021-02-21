@@ -1,0 +1,21 @@
+
+`	java:S112Y"FDefine and throw a dedicated exception instead of using a generic one.(ÖŒ®¾úÿÿÿÿ
+k	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Žï°úøÿÿÿÿ
+>
+java:S1148A"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+>
+java:S1148Q"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+M
+java:S2589;"7Remove this expression which always evaluates to "true"(¯Ñší
+M
+java:S2589K"7Remove this expression which always evaluates to "true"(¯Ñší
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(ß„áÆ
+P
+java:S22097"5Change this instance-reference to a static reference.(Ç”÷ñýÿÿÿÿ
+K
+java:S2209:"5Change this instance-reference to a static reference.(¢†¾Â
+K
+java:S2209G"5Change this instance-reference to a static reference.(©ú£Ÿ
+K
+java:S2209J"5Change this instance-reference to a static reference.(µ¡±¨

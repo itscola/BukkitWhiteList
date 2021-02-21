@@ -1,0 +1,19 @@
+
+h
+java:S1128
+"MRemove this unused import 'org.bukkit.event.player.AsyncPlayerPreLoginEvent'.(‡Ûåøÿÿÿÿ
+N
+java:S1874"8Remove this use of "getOfflinePlayer"; it is deprecated.(Ã‰ŞÂ
+;
+java:S1181="%Catch Exception instead of Throwable.(İÜí…
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(ß„áÆ
+f	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£öÖˆ
+W
+java:S1128"ARemove this unused import 'top.dsbbs2.whitelist.WhiteListPlugin'.(®Ò„
+J
+java:S1066"/Merge this if statement with the enclosing one.(ñã¥Øıÿÿÿÿ
+P
+java:S1128	"5Remove this unused import 'org.bukkit.entity.Player'.(Î©Øüúÿÿÿÿ
+9
+java:S1148="#Use a logger to log this exception.(İÜí…

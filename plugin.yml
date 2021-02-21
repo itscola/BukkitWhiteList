@@ -1,0 +1,30 @@
+name: WhiteList
+version: 3.7.9
+author:  [white_cola,lvxinlei,Chloe030120]
+main: top.dsbbs2.whitelist.WhiteListPlugin
+commands: 
+  wl: 
+   usage: /wl <childCmd> [args]...
+permissions: 
+  whitelist.add: 
+    default: op
+  whitelist.remove:
+    default: op
+  whitelist.ban:
+    default: op
+  whitelist.list:
+    default: op
+  whitelist.reload:
+    default: op
+  whitelist.get:
+    default: op
+  whitelist.confirm:
+    default: op
+  whitelist.debug:
+    default: op
+  whitelist.help:
+    default: op
+  whitelist.import:
+    default: op
+  whitelist.unlimit:
+    default: op

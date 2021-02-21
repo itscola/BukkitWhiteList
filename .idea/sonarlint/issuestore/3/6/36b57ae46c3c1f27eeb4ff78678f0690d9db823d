@@ -1,0 +1,10 @@
+
+9
+java:S1148@"#Use a logger to log this exception.(›‹ÌÖ
+e
+java:S1128
+"ORemove this unused import 'top.dsbbs2.whitelist.config.struct.WhiteListConfig'.(¡≥‚Ö
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(ﬂÑ·∆
+;
+java:S1181@"%Catch Exception instead of Throwable.(›‹ÌÖ

@@ -1,0 +1,17 @@
+
+\	java:S112—"FDefine and throw a dedicated exception instead of using a generic one.(…ÁÜ«
+\	java:S112 "FDefine and throw a dedicated exception instead of using a generic one.(…ÁÜ«
+\	java:S112æ"FDefine and throw a dedicated exception instead of using a generic one.(€öÐï
+a	java:S112•"FDefine and throw a dedicated exception instead of using a generic one.(§Ú«Áþÿÿÿÿ
+D
+java:S1604ß"(Make this anonymous inner class a lambda(û·¢ôýÿÿÿÿ
+>
+java:S1604Ž"(Make this anonymous inner class a lambda(Ô­½E
+k
+java:S3008M"URename this field "OBC_PREFIX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›€¡Ê
+k
+java:S3008N"URename this field "NMS_PREFIX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êýø²
+h
+java:S3008O"RRename this field "VERSION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’’îé
+t
+java:S3008R"YRename this field "MATCH_VARIABLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ²˜ãýÿÿÿÿ

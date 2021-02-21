@@ -1,0 +1,20 @@
+
+J
+java:S1066i"/Merge this if statement with the enclosing one.(–ûøùüÿÿÿÿ
+J
+java:S1066r"/Merge this if statement with the enclosing one.(¹öûÿÿÿÿÿ
+`	java:S112P"FDefine and throw a dedicated exception instead of using a generic one.(Òââ÷ûÿÿÿÿ
+T
+java:S1128">Remove this unused import 'top.dsbbs2.whitelist.commands.Add'.(ô–Òš
+e
+java:S1128"ORemove this unused import 'top.dsbbs2.whitelist.config.struct.WhiteListConfig'.(Á³â…
+E
+java:S1128"0Remove this unused import 'org.jline.utils.Log'.(êµ²:
+S
+java:S1874 "=Remove this use of "PlayerPickupItemEvent"; it is deprecated.(«’µ¬
+R
+java:S1874/"7Remove this use of "PlayerChatEvent"; it is deprecated.(Úì¦üÿÿÿÿ
+>	java:S108?")Either remove or fill this block of code.(”²‰™
+C
+java:S1125h"(Remove the literal "true" boolean value.(ÔÕÕÿÿÿÿÿ
+c	java:S100p"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Ò–ó

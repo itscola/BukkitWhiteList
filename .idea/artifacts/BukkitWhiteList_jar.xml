@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BukkitWhiteList:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BukkitWhiteList_jar</output-path>
+    <root id="archive" name="BukkitWhiteList.jar">
+      <element id="module-output" name="BukkitWhiteList" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>

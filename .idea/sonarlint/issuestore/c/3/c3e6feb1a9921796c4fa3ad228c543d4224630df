@@ -1,0 +1,114 @@
+
+ˆ
+java:S1149ò"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¨†©€şÿÿÿÿ8ßı¨µ.
+‚
+java:S1149õ"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(·œ8†î¨µ.
+‡
+java:S1319ì"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ï½µÎ
+k
+java:S1192"TDefine a constant instead of duplicating this literal "-------------------" 6 times.(àŒÃ
+l
+java:S1104"VMake informMess a static final constant or non-public and provide accessors if needed.(›·‘¦
+|
+java:S1149ó"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ä‰ï½
+U
+java:S1118":Add a private constructor to hide the implicit public one.(Ø³¡ûüÿÿÿÿ
+‚
+java:S1149å"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(İÔ›08ßı¨µ.
+1
+java:S3878*"Remove this array creation.(æÑã¡
+\
+java:S2259U"AA "NullPointerException" could be thrown; "wlp" is nullable here.(—‰…®ÿÿÿÿÿ
+V
+java:S22591"AA "NullPointerException" could be thrown; "wlp" is nullable here.(–íøs
+h
+java:S3776,"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ÆòĞ…
+h
+java:S3776J"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ªÃØİ
+B
+java:S1905Ø"+Remove this unnecessary cast to "WLPlayer".(†Ö×ß
+@
+java:S5411c"*Use the primitive boolean expression here.(¾Æù±
+ƒ
+java:S1149ç"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(š€®²8ßı¨µ.
+ˆ
+java:S1149­"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ö¦éáûÿÿÿÿ8ßı¨µ.
+f	java:S117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÃØİ
+|
+java:S1149ì"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ï½µÎ
+F
+java:S1444"0Make this "public static informMess" field final(›·‘¦
+@
+java:S1181r"%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ
+g
+java:S2259á"PA "NullPointerException" could be thrown; "getWLPlayerByName()" can return null.(Õ·—¦
+f
+java:S2259<"PA "NullPointerException" could be thrown; "getWLPlayerByUUID()" can return null.(©Ö™ß
+W	java:S125ç"<This block of commented-out lines of code should be removed.(ÄğÂøúÿÿÿÿ
+
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¯À«	8ßı¨µ.
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(êñô¿
+9
+java:S1148~"#Use a logger to log this exception.(Óùóÿ
+F
+java:S1125…"(Remove the literal "true" boolean value.(ı±ıù8ßı¨µ.
+@
+java:S5411€"*Use the primitive boolean expression here.(º¸›^
+ƒ
+java:S1149Ü"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(»ƒ“ê8ßı¨µ.
+|
+java:S21783"fCorrect this "&" to "&&" and extract the right operand to a variable if it should always be evaluated.(µÑŠ°
+“
+java:S1319§"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ê’¬­ıÿÿÿÿ8ßı¨µ.
+\
+java:S2259D"AA "NullPointerException" could be thrown; "wlp" is nullable here.(†É—úûÿÿÿÿ
+f
+java:S2259."PA "NullPointerException" could be thrown; "getWLPlayerByName()" can return null.(¶Ó­Ñ
+[	java:S112å"FDefine and throw a dedicated exception instead of using a generic one.(˜¼§2
+>
+java:S1148s"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+1
+java:S3626F"Remove this redundant jump.(ûÁİ…
+I
+java:S1612®",Replace this lambda with a method reference.(ô„Ì8ßı¨µ.
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ‡û¤
+M
+java:S1066…"/Merge this if statement with the enclosing one.(¯Ñší8ßı¨µ.
+ˆ
+java:S1149Ş"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¦»·Çøÿÿÿÿ8ßı¨µ.
+H
+java:S5411…"*Use the primitive boolean expression here.(ı±ıù8ßı¨µ.
+J
+java:S22091"5Change this instance-reference to a static reference.(–íøs
+1
+java:S3878("Remove this array creation.(±È
+[	java:S112×"FDefine and throw a dedicated exception instead of using a generic one.(˜¼§2
+u
+java:S3776ò"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(¨†©€şÿÿÿÿ8ßı¨µ.
+N
+java:S1874K"8Remove this use of "getOfflinePlayer"; it is deprecated.(ã¥Å
+ˆ
+java:S1149î"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(óÍÒ„øÿÿÿÿ8ßı¨µ.
+[	java:S112Ì"FDefine and throw a dedicated exception instead of using a generic one.(˜¼§2
+\
+java:S2259\"AA "NullPointerException" could be thrown; "wlp" is nullable here.(Ó¿åşÿÿÿÿ
+u
+java:S1192O"`Define a constant instead of duplicating this literal "å·²å­˜åœ¨äºç™½åå•,å·²ç»è¢«" 4 times.(Á†Ï$
+‚
+java:S1149ô"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(×üş}8ßı¨µ.
+‡
+java:S1319ó"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ä‰ï½
+V
+java:S2259O"AA "NullPointerException" could be thrown; "wlp" is nullable here.(Á†Ï$
+1
+java:S3878"Remove this array creation.(õ‡û¤
+6
+java:S3878"Remove this array creation.(ĞÄÉßùÿÿÿÿ
+
+java:S1319«"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(º¡z8ßı¨µ.
+r
+java:S1192³"ODefine a constant instead of duplicating this literal "è·å–WLPlayer" 3 times.(½ú Şùÿÿÿÿ8ßı¨µ.
+P
+java:S2209D"5Change this instance-reference to a static reference.(†É—úûÿÿÿÿ
+‚
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¯À«	8ßı¨µ.
