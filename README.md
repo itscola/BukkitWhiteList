@@ -1,4 +1,4 @@
-# BukkitWhiteList (禁止用于一切收费活动. 必须永久完全免费.)
+# BukkitWhiteList (禁止用于一切收费活动. 必须永久完全免费. 并保留原作者)
 更好的白名单插件 .
 
 此项目由White_cola 构思 设计 维护 以及 更新 .<br>
