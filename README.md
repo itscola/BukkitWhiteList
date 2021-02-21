@@ -11,4 +11,4 @@ Chloe030120 参与多版本更新 做出大量贡献<br>
 禁止用于一切收费活动. 必须永久完全免费.<br>
 相关视频 : https://www.bilibili.com/video/BV1Lv411s72T<br>
 
-# 开发文档正在路上 #
+# 开发文档和Gradlew正在路上 #
