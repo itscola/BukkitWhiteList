@@ -10,6 +10,7 @@ Chloe030120 参与多版本更新 做出大量贡献<br>
 插件为AGPL V3协议 凡是更改 务必开源.<br>
 相关视频 : https://www.bilibili.com/video/BV1Lv411s72T<br>
 
- 开发文档正在路上 <br>
  (此项目为旧代码 代码质量并不算高 但是插件非常稳定) (开源后 这个项目我不会再更新了)<br>
  QQ群: 703246558
+
+[WB-Lite Project](https://github.com/lvyitian1/WB-Lite)
