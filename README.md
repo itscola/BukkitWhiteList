@@ -13,6 +13,8 @@ Chloe030120 参与多版本更新 做出大量贡献<br>
  (此项目为旧代码 代码质量并不算高 但是插件非常稳定) (开源后 这个项目我不会再更新了)<br>
  QQ群: 703246558
 
+[releases](https://github.com/itscola/BukkitWhiteList/releases/tag/3.7.10)
+
 [WB-Lite Project](https://github.com/lvyitian1/WB-Lite)
 ![image](https://user-images.githubusercontent.com/47351250/113707069-f70d1500-9711-11eb-8768-fa39835c6307.png)
 ![image](https://user-images.githubusercontent.com/47351250/113707398-6daa1280-9712-11eb-826e-5520d0d1725c.png)
