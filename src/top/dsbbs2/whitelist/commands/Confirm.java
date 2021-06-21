@@ -4,7 +4,6 @@ import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.jetbrains.annotations.NotNull;
 import top.dsbbs2.whitelist.WhiteListPlugin;
 import top.dsbbs2.whitelist.config.struct.WhiteListConfig;
 import top.dsbbs2.whitelist.util.*;
@@ -100,26 +99,26 @@ public class Confirm implements IChildCommand{
     }
 
     @Override
-    public @NotNull String getUsage() {
+    public String getUsage() {
         return "/wl confirm <QQ>";
     }
 
     @Override
-    public @NotNull Vector<Class<?>> getArgumentsTypes() {
+    public Vector<Class<?>> getArgumentsTypes() {
         return VectorUtil.toVector(long.class);
     }
 
     @Override
-    public @NotNull Vector<String> getArgumentsDescriptions() {
+    public Vector<String> getArgumentsDescriptions() {
         return VectorUtil.toVector("qq");
     }
 
     @Override
-    public @NotNull String getPermission() {
+    public String getPermission() {
 
         return "whitelist.confirm";
     }
-    @NotNull
+
     @Override
     public String getDescription(){
         return "对用户进行验证";

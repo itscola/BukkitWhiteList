@@ -1,10 +1,8 @@
 package top.dsbbs2.whitelist.commands;
 
-import org.bukkit.OfflinePlayer;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.jetbrains.annotations.NotNull;
 import top.dsbbs2.whitelist.gui.WhiteListGUI;
 import top.dsbbs2.whitelist.util.CommandUtil;
 import top.dsbbs2.whitelist.util.MsgUtil;
@@ -44,34 +42,29 @@ public class List implements IChildCommand {
 		return false;
 	}
 
-	@NotNull
 	@Override
 	public String getUsage() {
 		return "/wl list [num]";
 	}
 
-	@NotNull
 	@Override
 	public Vector<Class<?>> getArgumentsTypes()
 	{
 		return VectorUtil.toVector(int.class);
 	}
 
-	@NotNull
 	@Override
 	public Vector<String> getArgumentsDescriptions()
 	{
 		return VectorUtil.toVector();
 	}
 
-	@NotNull
 	@Override
 	public String getPermission()
 	{
 		return "whitelist.list";
 	}
 
-	@NotNull
 	@Override
 	public String getDescription(){
 		return "可视化查看拥有白名单的玩家的列表";

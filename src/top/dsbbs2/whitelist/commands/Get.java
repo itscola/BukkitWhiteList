@@ -1,10 +1,8 @@
 package top.dsbbs2.whitelist.commands;
 
 
-import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
-import org.jetbrains.annotations.NotNull;
 import top.dsbbs2.whitelist.util.*;
 
 import java.util.Vector;
@@ -48,26 +46,25 @@ public class Get implements IChildCommand{
         return true;
     }
     @Override
-    public @NotNull String getUsage() {
+    public  String getUsage() {
         return "/wl get <QQNum>or<ID>";
     }
 
     @Override
-    public @NotNull Vector<Class<?>> getArgumentsTypes() {
+    public  Vector<Class<?>> getArgumentsTypes() {
         return VectorUtil.toVector(String.class);
     }
 
     @Override
-    public @NotNull Vector<String> getArgumentsDescriptions() {
+    public  Vector<String> getArgumentsDescriptions() {
         return VectorUtil.toVector("QQnum/ID");
     }
 
     @Override
-    public @NotNull String getPermission() {
+    public String getPermission() {
         return "whitelist.get";
     }
 
-    @NotNull
     @Override
     public String getDescription(){
         return "通过id/qq获取qq/id";

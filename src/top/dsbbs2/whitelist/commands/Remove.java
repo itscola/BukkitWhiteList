@@ -6,11 +6,6 @@ import org.bukkit.Bukkit;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Player;
-import org.bukkit.event.player.AsyncPlayerPreLoginEvent;
-import org.jetbrains.annotations.NotNull;
-
-import top.dsbbs2.whitelist.WhiteListPlugin;
 import top.dsbbs2.whitelist.util.MsgUtil;
 import top.dsbbs2.whitelist.util.PlayerUtil;
 import top.dsbbs2.whitelist.util.ServerUtil;
@@ -65,33 +60,31 @@ public class Remove implements IChildCommand {
 		return false;
 	}
 
-	@NotNull
 	@Override
 	public String getUsage() {
 		return "/wl remove <player_name>";
 	}
 
-	@NotNull
 	@Override
 	public Vector<Class<?>> getArgumentsTypes()
 	{
 		return VectorUtil.toVector(String.class);
 	}
 
-	@NotNull
+	 
 	@Override
 	public Vector<String> getArgumentsDescriptions()
 	{
 		return VectorUtil.toVector("whitelisted_player");
 	}
 
-	@NotNull
+	 
 	@Override
 	public String getPermission()
 	{
 		return "whitelist.remove";
 	}
-	@NotNull
+	 
 	@Override
 	public String getDescription(){
 		return "通过id移除用户白名单";

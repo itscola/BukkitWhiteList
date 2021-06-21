@@ -9,6 +9,9 @@
       </configuration>
     </facet>
   </component>
+  <component name="McpModuleSettings">
+    <option name="srgType" value="SRG" />
+  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
@@ -16,6 +19,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="akarin-1.12.2" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="spigot-1.17" level="project" />
   </component>
 </module>

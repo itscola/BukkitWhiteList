@@ -5,9 +5,7 @@ import org.bukkit.OfflinePlayer;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.jetbrains.annotations.NotNull;
 import top.dsbbs2.whitelist.WhiteListPlugin;
-import top.dsbbs2.whitelist.config.struct.WhiteListConfig;
 import top.dsbbs2.whitelist.util.*;
 
 import java.util.Vector;
@@ -65,33 +63,28 @@ public class QRemove implements IChildCommand {
 		return false;
 	}
 	
-	@NotNull
 	@Override
 	public String getUsage() {
 		return "/wl qremove <qq>";
 	}
 	
-	@NotNull
 	@Override
 	public Vector<Class<?>> getArgumentsTypes()
 	{
 		return VectorUtil.toVector(long.class);
 	}
 	
-	@NotNull
 	@Override
 	public Vector<String> getArgumentsDescriptions()
 	{
 		return VectorUtil.toVector("qq");
 	}
 	
-	@NotNull
 	@Override
 	public String getPermission()
 	{
 		return "whitelist.remove";
 	}
-	@NotNull
 	@Override
 	public String getDescription(){
 		return "通过qq移除白名单";

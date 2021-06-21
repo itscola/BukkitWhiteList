@@ -7,7 +7,6 @@ import org.bukkit.Bukkit;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
-import org.jetbrains.annotations.NotNull;
 
 import top.dsbbs2.whitelist.util.*;
 
@@ -46,34 +45,28 @@ public class NoNameRemove implements IChildCommand {
         }
         return false;
     }
-
-    @NotNull
     @Override
     public String getUsage() {
         return "/wl nonameremove <player_uuid>";
     }
 
-    @NotNull
     @Override
     public Vector<Class<?>> getArgumentsTypes()
     {
         return VectorUtil.toVector(String.class);
     }
 
-    @NotNull
     @Override
     public Vector<String> getArgumentsDescriptions()
     {
         return VectorUtil.toVector("noname_player");
     }
 
-    @NotNull
     @Override
     public String getPermission()
     {
         return "whitelist.remove";
     }
-    @NotNull
     @Override
     public String getDescription(){
         return "通过UUID删除玩家[仅正版服可用]";

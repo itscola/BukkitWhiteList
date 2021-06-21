@@ -6,7 +6,10 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
+import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
+import org.bukkit.event.entity.EntityDamageEvent;
+import org.bukkit.event.entity.EntityTargetLivingEntityEvent;
 import org.bukkit.event.player.*;
 import top.dsbbs2.common.lambda.INoThrowsRunnable;
 import top.dsbbs2.whitelist.WhiteListPlugin;
@@ -184,5 +187,22 @@ public class PlayerListener implements Listener {
     @EventHandler(priority = EventPriority.HIGHEST)
     public void onPlayerQuitGame(PlayerQuitEvent e){
         PlayerUtil.removePlayerFromPlayerInteract(e.getPlayer().getName());
+    }
+
+    @EventHandler(priority = EventPriority.HIGHEST)
+    public void onPlayerBreakBlock(BlockBreakEvent e) throws Throwable{
+        EventUtil.checkAndCancel(e,e.getPlayer());
+    }
+
+    @EventHandler(priority = EventPriority.HIGHEST)
+    public void onPlayerWasAttacked(EntityDamageEvent e) throws Throwable{
+        if(e.getEntity() instanceof Player)
+            EventUtil.checkAndCancel(e,(Player) e.getEntity());
+    }
+
+    @EventHandler(priority = EventPriority.HIGHEST)
+    public void onEntityTargetLivingEntityEvent(EntityTargetLivingEntityEvent e) throws Throwable{
+        if(e.getTarget() instanceof Player)
+            EventUtil.checkAndCancel(e,(Player) e.getTarget());
     }
 }

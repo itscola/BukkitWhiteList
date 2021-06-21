@@ -2,7 +2,6 @@ package top.dsbbs2.whitelist.commands;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
-import org.jetbrains.annotations.NotNull;
 import top.dsbbs2.whitelist.WhiteListPlugin;
 import top.dsbbs2.whitelist.util.VectorUtil;
 
@@ -42,34 +41,29 @@ public class Debug implements IChildCommand{
         arg0.sendMessage("§cdebug命令执行失败,你要执行的命令是不是 '/wl debug' ?");
         return false;
     }
-    @NotNull
     @Override
     public String getUsage() {
         return "/wl debug";
     }
 
-    @NotNull
     @Override
     public Vector<Class<?>> getArgumentsTypes()
     {
         return VectorUtil.toVector(String.class);
     }
 
-    @NotNull
     @Override
     public Vector<String> getArgumentsDescriptions()
     {
         return VectorUtil.toVector("");
     }
 
-    @NotNull
     @Override
     public String getPermission()
     {
         return "whitelist.debug";
     }
 
-    @NotNull
     @Override
     public String getDescription(){
         return "开启/关闭 debug模式";

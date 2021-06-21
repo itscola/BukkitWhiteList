@@ -26,22 +26,22 @@ public class PlayerUtil {
     public static volatile String informMess=WhiteListPlugin.instance.whitelist.con.mess;
     public static void setInv(Player p,boolean inv) throws Throwable
     {
-
         MsgUtil.makeDebugMsgAndSend("开始将玩家" + p.getName() + "的隐形模式设置为" + inv);
-        Method getHandle = p.getClass().getDeclaredMethod("getHandle", new Class<?>[0]);
-        getHandle.setAccessible(true);
-        Object NMSPlayer = getHandle.invoke(p, new Object[0]);
-        Field abilities = NMSPlayer.getClass().getSuperclass().getDeclaredField("abilities");
-        abilities.setAccessible(true);
-        Object abiObj = abilities.get(NMSPlayer);
-        Class<?> abiClass = abiObj.getClass();
-        Field isInvulnerable = abiClass.getDeclaredField("isInvulnerable");
-        isInvulnerable.setAccessible(true);
-        isInvulnerable.set(abiObj, inv);
-        abilities.set(NMSPlayer, abiObj);
-        Method upd = NMSPlayer.getClass().getDeclaredMethod("updateAbilities", new Class<?>[0]);
-        upd.setAccessible(true);
-        upd.invoke(NMSPlayer, new Object[0]);
+//        Method getHandle = p.getClass().getDeclaredMethod("getHandle", new Class<?>[0]);
+//        getHandle.setAccessible(true);
+//        Object NMSPlayer = getHandle.invoke(p, new Object[0]);
+//        Field abilities = NMSPlayer.getClass().getSuperclass().getDeclaredField("abilities");
+//        abilities.setAccessible(true);
+//        Object abiObj = abilities.get(NMSPlayer);
+//        Class<?> abiClass = abiObj.getClass();
+//        Field isInvulnerable = abiClass.getDeclaredField("isInvulnerable");
+//        isInvulnerable.setAccessible(true);
+//        isInvulnerable.set(abiObj, inv);
+//        abilities.set(NMSPlayer, abiObj);
+//        Method upd = NMSPlayer.getClass().getDeclaredMethod("updateAbilities", new Class<?>[0]);
+//        upd.setAccessible(true);
+//        upd.invoke(NMSPlayer, new Object[0]);
+//        CraftPlayer
 
     }
     public static void checkUUIDAndName(Player player){
@@ -429,9 +429,9 @@ public class PlayerUtil {
                 if(n==null&&top!=null)
                     n=top.getUniqueId().toString();
                 if(WhiteListPlugin.instance.whitelist.con.useSkinonWLList){
-                    t.addItem(new ItemBuilder().setType(Material.SKULL_ITEM).setAmount(1).setDamage((short) 3).setSkullOwner(top).setDisplayName(n).setLore("QQ号:" + (temp.get(i2).QQ == -1 ? "未知" : temp.get(i2).QQ)).create());
+                    t.addItem(new ItemBuilder().setType(Material.PLAYER_HEAD).setAmount(1).setDamage((short) 3).setSkullOwner(top).setDisplayName(n).setLore("QQ号:" + (temp.get(i2).QQ == -1 ? "未知" : temp.get(i2).QQ)).create());
                 }else{
-                    t.addItem(new ItemBuilder().setType(Material.SKULL_ITEM).setAmount(1).setDamage((short) 3).setDisplayName(n).setLore("QQ号:" + (temp.get(i2).QQ == -1 ? "未知" : temp.get(i2).QQ)).create());
+                    t.addItem(new ItemBuilder().setType(Material.PLAYER_HEAD).setAmount(1).setDamage((short) 3).setDisplayName(n).setLore("QQ号:" + (temp.get(i2).QQ == -1 ? "未知" : temp.get(i2).QQ)).create());
                 }
             }
             t.setItem(36,new ItemBuilder().setType(Material.BOOK).setAmount(1).setDisplayName("上一页").create());
@@ -467,16 +467,16 @@ public class PlayerUtil {
     }
     public static boolean isNPC(Player p){
         if(WhiteListPlugin.instance.whitelist.con.antiNPCBug) {
-            try {
-                MsgUtil.makeDebugMsgAndSend("开始检查玩家是否是NPC");
-                Method getHandle = p.getClass().getDeclaredMethod("getHandle", new Class<?>[0]);
-                getHandle.setAccessible(true);
-                Object NMSPlayer = getHandle.invoke(p.getPlayer(), new Object[0]);
-                Field abilities = NMSPlayer.getClass().getSuperclass().getDeclaredField("abilities");
-            }catch (Throwable ee){
-                MsgUtil.makeDebugMsgAndSend(p.getPlayer().getName()+"是NPC");
-                return true;
-            }
+//            try {
+//                MsgUtil.makeDebugMsgAndSend("开始检查玩家是否是NPC");
+//                Method getHandle = p.getClass().getDeclaredMethod("getHandle", new Class<?>[0]);
+//                getHandle.setAccessible(true);
+//                Object NMSPlayer = getHandle.invoke(p.getPlayer(), new Object[0]);
+//                Field abilities = NMSPlayer.getClass().getSuperclass().getDeclaredField("abilities");
+//            }catch (Throwable ee){
+//                MsgUtil.makeDebugMsgAndSend(p.getPlayer().getName()+"是NPC");
+//                return true;
+//            }
             MsgUtil.makeDebugMsgAndSend("未发现NPC");
         }
         return false;

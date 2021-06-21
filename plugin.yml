@@ -1,7 +1,8 @@
 name: WhiteList
-version: 3.7.9
+version: 3.7.10
 author:  [white_cola,lvxinlei,Chloe030120]
 main: top.dsbbs2.whitelist.WhiteListPlugin
+api-version: 1.17
 commands: 
   wl: 
    usage: /wl <childCmd> [args]...

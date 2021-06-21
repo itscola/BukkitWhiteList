@@ -5,7 +5,6 @@ import java.util.Vector;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
-import org.jetbrains.annotations.NotNull;
 
 import top.dsbbs2.whitelist.WhiteListPlugin;
 import top.dsbbs2.whitelist.util.CommandUtil;
@@ -94,33 +93,29 @@ public class Add implements IChildCommand {
 
 
 
-	@NotNull
 	@Override
 	public String getUsage() {
 		return "/wl add <player_name> [QQ]";
 	}
 
-	@NotNull
 	@Override
 	public Vector<Class<?>> getArgumentsTypes()
 	{
 		return VectorUtil.toVector(String.class,long.class);
 	}
 
-	@NotNull
 	@Override
 	public Vector<String> getArgumentsDescriptions()
 	{
 		return VectorUtil.toVector("unwhitelisted_player","qq");
 	}
 
-	@NotNull
 	@Override
 	public String getPermission()
 	{
 		return "whitelist.add";
 	}
-	@NotNull
+
 	@Override
 	public String getDescription(){
 		return "添加用户到白名单";

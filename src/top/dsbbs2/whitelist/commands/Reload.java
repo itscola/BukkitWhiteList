@@ -4,16 +4,11 @@ import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.jetbrains.annotations.NotNull;
-import top.dsbbs2.common.file.FileUtils;
 import top.dsbbs2.whitelist.WhiteListPlugin;
 import top.dsbbs2.whitelist.util.PlayerUtil;
 import top.dsbbs2.whitelist.util.PluginUtil;
 import top.dsbbs2.whitelist.util.ServerUtil;
 import top.dsbbs2.whitelist.util.VectorUtil;
-
-import java.io.File;
-import java.nio.charset.StandardCharsets;
 import java.util.Vector;
 
 public class Reload implements IChildCommand {
@@ -48,33 +43,28 @@ public class Reload implements IChildCommand {
         return true;
     }
 
-    @NotNull
     @Override
     public String getUsage() {
         return "/wl reload";
     }
 
-    @NotNull
     @Override
     public Vector<Class<?>> getArgumentsTypes()
     {
         return VectorUtil.toVector();
     }
 
-    @NotNull
     @Override
     public Vector<String> getArgumentsDescriptions()
     {
         return VectorUtil.toVector();
     }
 
-    @NotNull
     @Override
     public String getPermission()
     {
         return "whitelist.reload";
     }
-    @NotNull
     @Override
     public String getDescription(){
         return "÷ÿ‘ÿBukkitWhitelist≈‰÷√Œƒº˛";

@@ -1,5 +1,6 @@
 package top.dsbbs2.whitelist.util;
 
+import net.minecraft.server.MinecraftServer;
 import org.bukkit.Bukkit;
 import top.dsbbs2.common.file.FileUtils;
 import top.dsbbs2.whitelist.WhiteListPlugin;
@@ -10,7 +11,7 @@ import java.nio.charset.StandardCharsets;
 
 public class PluginUtil {
     public static String getPluginVersion(){
-        return "更好的白名名单(WL) - "+ Bukkit.getPluginManager().getPlugin("WhiteList").getDescription().getVersion()+"[N]";
+        return "更好的白名名单(WL) - "+ Bukkit.getPluginManager().getPlugin("WhiteList").getDescription().getVersion()+"[F17A]";
     }
 
     public static boolean isDebugMode(){
@@ -24,8 +25,9 @@ public class PluginUtil {
 
         if(WhiteListPlugin.instance.extraConfig.getConfig().pluginAotuExcuter){
             try {
-                if (Bukkit.getServer().getTPS()[0] < WhiteListPlugin.instance.extraConfig.getConfig().dengerousTPS) {
+                if (ServerUtil.getTps() < WhiteListPlugin.instance.extraConfig.getConfig().dengerousTPS) {
                     return true;
+
                 }
             }catch (Throwable e){
                 return !WhiteListPlugin.instance.whitelist.con.canNoWhitePlayerGetIn;

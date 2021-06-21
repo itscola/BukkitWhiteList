@@ -2,7 +2,6 @@ package top.dsbbs2.whitelist.commands;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
-import org.jetbrains.annotations.NotNull;
 import top.dsbbs2.whitelist.WhiteListPlugin;
 import top.dsbbs2.whitelist.util.MsgUtil;
 import top.dsbbs2.whitelist.util.VectorUtil;
@@ -36,25 +35,24 @@ public class Help implements IChildCommand{
         return false;
     }
     @Override
-    public @NotNull String getUsage() {
+    public String getUsage() {
         return "/wl help <num>";
     }
 
     @Override
-    public @NotNull Vector<Class<?>> getArgumentsTypes() {
+    public  Vector<Class<?>> getArgumentsTypes() {
         return VectorUtil.toVector(int.class);
     }
 
     @Override
-    public @NotNull Vector<String> getArgumentsDescriptions() {
+    public Vector<String> getArgumentsDescriptions() {
         return VectorUtil.toVector("num");
     }
 
     @Override
-    public @NotNull String getPermission() {
+    public String getPermission() {
         return "whitelist.help";
     }
-    @NotNull
     @Override
     public String getDescription(){
         return "ªÒ»°∞Ô÷˙";

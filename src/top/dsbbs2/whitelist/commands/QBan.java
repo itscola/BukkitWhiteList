@@ -1,9 +1,7 @@
 package top.dsbbs2.whitelist.commands;
 
-import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
-import org.jetbrains.annotations.NotNull;
 import top.dsbbs2.whitelist.WhiteListPlugin;
 import top.dsbbs2.whitelist.util.*;
 
@@ -91,33 +89,28 @@ public class QBan implements IChildCommand {
 		return false;
 	}
 	
-	@NotNull
 	@Override
 	public String getUsage() {
 		return "/wl qban <qq>";
 	}
 	
-	@NotNull
 	@Override
 	public Vector<Class<?>> getArgumentsTypes()
 	{
 		return VectorUtil.toVector(long.class);
 	}
 	
-	@NotNull
 	@Override
 	public Vector<String> getArgumentsDescriptions()
 	{
 		return VectorUtil.toVector("qq");
 	}
 	
-	@NotNull
 	@Override
 	public String getPermission()
 	{
 		return "whitelist.ban";
 	}
-	@NotNull
 	@Override
 	public String getDescription(){
 		return "Í¨¹ýQQ banÍæ¼Ò";

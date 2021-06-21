@@ -6,7 +6,6 @@ import com.google.gson.reflect.TypeToken;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
-import org.jetbrains.annotations.NotNull;
 import org.spigotmc.WatchdogThread;
 import top.dsbbs2.common.file.FileUtils;
 import top.dsbbs2.whitelist.config.MojangJson;
@@ -45,33 +44,28 @@ public class Import implements IChildCommand {
         return true;
     }
 
-    @NotNull
     @Override
     public String getUsage() {
         return "/wl import";
     }
 
-    @NotNull
     @Override
     public Vector<Class<?>> getArgumentsTypes()
     {
         return VectorUtil.toVector(String.class);
     }
 
-    @NotNull
     @Override
     public Vector<String> getArgumentsDescriptions()
     {
         return VectorUtil.toVector("Mojang");
     }
 
-    @NotNull
     @Override
     public String getPermission()
     {
         return "whitelist.import";
     }
-    @NotNull
     @Override
     public String getDescription(){
         return "从mojang/旧版 导入玩家[暂时只支持从官方白名单导入!]";

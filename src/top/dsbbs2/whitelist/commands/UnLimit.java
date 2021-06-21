@@ -2,7 +2,6 @@ package top.dsbbs2.whitelist.commands;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
-import org.jetbrains.annotations.NotNull;
 import top.dsbbs2.whitelist.WhiteListPlugin;
 import top.dsbbs2.whitelist.util.*;
 
@@ -39,33 +38,33 @@ public class UnLimit implements IChildCommand{
         return false;
     }
 
-    @NotNull
+     
     @Override
     public String getUsage() {
         return "/wl unlimit";
     }
 
-    @NotNull
+     
     @Override
     public Vector<Class<?>> getArgumentsTypes()
     {
         return VectorUtil.toVector(long.class);
     }
 
-    @NotNull
+     
     @Override
     public Vector<String> getArgumentsDescriptions()
     {
         return VectorUtil.toVector("wblacklist");
     }
 
-    @NotNull
+     
     @Override
     public String getPermission()
     {
         return "whitelist.unlimit";
     }
-    @NotNull
+     
     @Override
     public String getDescription(){
         return "移出管制名单.";

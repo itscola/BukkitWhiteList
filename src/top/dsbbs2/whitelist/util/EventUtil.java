@@ -80,11 +80,7 @@ public class EventUtil {
     }
 
     public static boolean checkAndCancel(Cancellable e, Player p) throws Throwable{
-        if(WhiteListPlugin.instance.whitelist.con.antiNPCBug) {
-            if(PlayerUtil.isNPC(p)){
-                return true;
-            }
-        }
+
         return checkAndCancel(e, p, PlayerUtil.informMess);
 
     }
